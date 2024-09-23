@@ -13,6 +13,7 @@ public class CRUD_Clientes {
         if (!CRUD_Clientes.buscarCliente(lista,cliente)) {
             lista.add(cliente);
             semaforo = true;
+            System.out.println("prueba commit");
         }
         if (semaforo) {
             Alertas.alertaGeneral("Operación confirmado con éxito","CONFIRMATION");
