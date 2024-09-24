@@ -19,4 +19,8 @@ public class Usuario extends Cliente{
     public void setPremiumUs(boolean premiumUs) {
         PremiumUs = premiumUs;
     }
+
+    public Usuario(String mailCl) {
+        super(mailCl);
+    }
 }

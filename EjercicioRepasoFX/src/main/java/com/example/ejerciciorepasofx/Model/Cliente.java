@@ -14,6 +14,10 @@ public class Cliente {
         this.descuentoCl = descuentoCl;
     }
 
+    public Cliente(String mailCl) {
+        this.mailCl = mailCl;
+    }
+
     public String getMailCl() {
         return mailCl;
     }
